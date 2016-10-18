@@ -1,8 +1,9 @@
-# What: Software Carpentry Workshop
-# When: October 18, 2016
-# Who: John Erb-Downward
-# Where: Hatcher Graduate Library, UM
-########################################
+#######################################
+# What: Software Carpentry Workshop   #
+# When: October 18, 2016	      #
+# Who: John Erb-Downward	      #
+# Where: Hatcher Graduate Library, UM #
+#######################################
 
 #Packages necessary for analysis
 #Need to rember to install.packages
