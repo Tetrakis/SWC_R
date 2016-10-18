@@ -99,6 +99,8 @@ surveys %>%
 
 
 # Split, Apply, Combine Workflow
+
+# Double check this later
 surveys %>%
   filter(!is.na(weight),taxa=="Rodent") %>%
   group_by(species_id) %>%
