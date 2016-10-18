@@ -1,11 +1,12 @@
 # What: Software Carpentry Workshop
 # When: October 18, 2016
 # Who: John Erb-Downward
+# Where: Hatcher Graduate Library, UM
+
+#Packages necessary for analysis
 library(dplyr)
 library(tidyr)
 library(ggplot2)
-library(vegan)
-library(mvabund)
 library(RSQLite)
 
 # Using RSQLite
