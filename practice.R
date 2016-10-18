@@ -122,6 +122,6 @@ common_surveys<-survey.complete %>%
 
 ## ggplot2
 ggplot(data=common_surveys,
-       aes(x=weight,y=hindfoot_length,color=species_id))+
+       aes(x=weight,y=hindfoot_length,color=taxa))+
   geom_point()
 
