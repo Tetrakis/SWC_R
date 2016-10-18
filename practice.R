@@ -9,7 +9,7 @@
 #Need to rember to install.packages
 
 library(dplyr)
-library(tidyr) # Hmm... I don't think we every used this
+library(tidyr)
 library(ggplot2)
 library(RSQLite)
 
@@ -122,6 +122,6 @@ common_surveys<-survey.complete %>%
 
 ## ggplot2
 ggplot(data=common_surveys,
-       aes(x=weight,y=hindfoot_length,color=taxa))+
+       aes(x=weight,y=hindfoot_length,color=species_id))+
   geom_point()
 
