@@ -9,7 +9,7 @@
 #Need to rember to install.packages
 
 library(dplyr)
-library(tidyr)
+library(tidyr) # Hmm... I don't think we every used this
 library(ggplot2)
 library(RSQLite)
 
